@@ -6,5 +6,6 @@
 ### 開發者工具介紹
 * 創建小程序(項目->新建項目 如下圖所示)   
 <img src="https://github.com/sheng19960125/WeChat-Mini-Program/blob/master/step1.PNG" width="750px" alt="新增" />  
-* 主頁面  
+
+* 主頁面   
 <img src="https://github.com/sheng19960125/WeChat-Mini-Program/blob/master/main.PNG" width="750px" alt="主頁" />  
