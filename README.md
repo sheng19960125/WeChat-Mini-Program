@@ -8,5 +8,6 @@
 <img src="https://github.com/sheng19960125/WeChat-Mini-Program/blob/master/step1.PNG" width="750px" alt="新增" />  
 
 * 主頁面   
-<img src="https://github.com/sheng19960125/WeChat-Mini-Program/blob/master/main.PNG" width="750px" alt="主頁" />  
+<img src="https://github.com/sheng19960125/WeChat-Mini-Program/blob/master/main.PNG" width="750px" alt="主頁" />
+  
 * 畫面的上部紫色框內的部分為工具欄一共被分爲四個區域
