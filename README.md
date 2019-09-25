@@ -10,4 +10,7 @@
 * 主頁面   
 <img src="https://github.com/sheng19960125/WeChat-Mini-Program/blob/master/main.PNG" width="750px" alt="主頁" />
   
-* 畫面的上部紫色框內的部分為工具欄一共被分爲四個區域
+* 畫面的上部紫色框內的部分為工具欄
+* 畫面的上部藍色框內的部分為模擬器
+* 畫面的上部黃色框內的部分為編輯器
+* 畫面的上部宗色框內的部分為調試器
