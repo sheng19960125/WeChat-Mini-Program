@@ -10,7 +10,16 @@
 * 主頁面   
 <img src="https://github.com/sheng19960125/WeChat-Mini-Program/blob/master/main.PNG" width="750px" alt="主頁" />
   
-* 畫面的上部紫色框內的部分為工具欄
-* 畫面的上部藍色框內的部分為模擬器
-* 畫面的上部黃色框內的部分為編輯器
-* 畫面的上部宗色框內的部分為調試器
+* 畫面的上部紫色框內的部分為工具欄、藍色框內的部分為模擬器、黃色框內的部分為編輯器、宗色框內的部分為調試器。  
+* 官方提供`wcc`與`wcsc`兩種編譯工具，`wcc`編譯器可以將`wxml`文件編譯成`js`文件，`wcsc`編譯器可以將`wxss`文件編譯成`js`文件。
+* 在調適方面可見功能已經相當強大，模塊：Console、Sources、Network、Storage、Appdata、Wxml、Sensor、Trace。
+Console：程序錯誤信息，開發者可在此輸入調適code。
+Sources：設置斷點，確認變量內容，修改等。
+Network：Request與Socket請求情況。
+Storage：進行wx.setStorage 或者wx.setStorageSync 存儲數據時，可進行基本新增移除修改等功能。
+Appdata：及時數據顯示，可在此編輯數據，並會及時反饋。
+Wxml：類似於Html前台，可直接修改Wxml數據並匯集時反饋，但部會保存於code中。
+Sensor：模擬地理位子，設備表現重力感測等。
+Trace：連接的設備上取得調試信息並進行顯示。
+
+
