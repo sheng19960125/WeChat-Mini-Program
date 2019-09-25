@@ -5,4 +5,4 @@
 * 下載後直接安裝，選擇路徑等基本設定後，即可安裝完成，並啟動唯信小程序
 ### 開發者工具介紹
 * 創建小程序(項目->新建項目 如下圖所示) 
-<img src="https://github.com/sheng19960125/WeChat-Mini-Program/blob/master/step1.PNG" width="400" alt="創建" />
+![](https://github.com/sheng19960125/WeChat-Mini-Program/blob/master/step1.PNG)  
