@@ -67,5 +67,11 @@ WXSS(WeiXin Style Sheet) 用於描述頁面樣式。
 而組件(Component)是視圖最基本的元件。    
 
 ### 通信模型
+小程序主要分為`渲染層`與`邏輯層`兩種線程來做管理。  
+* 渲染層使用`WebView`進行。   
+* 邏輯層使用`JsCore`運行JS腳本。    
+<img src="https://github.com/sheng19960125/WeChat-Mini-Program/blob/master/model.png" width="750px" alt="模型" />
+Native指唯信客戶端，網路請求等也經由Native轉發。如上圖所示。    
 
-<img src="https://github.com/sheng19960125/WeChat-Mini-Program/blob/master/model.PNG" width="750px" alt="主頁" />
+
+
