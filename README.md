@@ -90,5 +90,5 @@ view -> "Hello World"
 ```
 
 ### 線程下的介面渲染  
-
+在渲染層，宿主環境會把WXML轉化成對應的JS對象，在邏輯層發生數據變更的时候，我们需要通過宿主環境提供的setData方法把數據從邏輯層傳遞到渲染層，再經過對比前後差異，把差異點應用在原来的Dom樹上，渲染出正確的UI界面    
 <img src="https://github.com/sheng19960125/WeChat-Mini-Program/blob/master/model.png" width="750px" alt="模型" />
