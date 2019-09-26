@@ -74,17 +74,17 @@ WXSS(WeiXin Style Sheet) 用於描述頁面樣式。
 Native指唯信客戶端，網路請求等也經由Native轉發。如上圖所示。    
 WXML先轉為JS在回到原本的樣式，過程如下。
 ```
-1.
+
 <view>{{ msg }}</view> 
-2.
+
 { msg:"Hello World" }  
-3.
+
 { name:"view",
   children:[
     {text:"Holle World"}
   ]
 }
-4.
+
 view -> "Hello World"
 ```
 
