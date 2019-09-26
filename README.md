@@ -21,7 +21,5 @@ Appdata：及時數據顯示，可在此編輯數據，並會及時反饋。
 Wxml：類似於Html前台，可直接修改Wxml數據並匯集時反饋，但部會保存於code中。  
 Sensor：模擬地理位子，設備表現重力感測等。  
 Trace：連接的設備上取得調試信息並進行顯示。  
-* 每一資料夾都拆為四個子資料，分別為`js`、`json`、`wxml`、`wxss`四種檔案類型。  
-如果以CodeIgniter架構來說  
-`js`相對於`controller`  
+* 每一資料夾都拆為四個子資料，分別為`js`、`json`、`wxml`、`wxss`四種檔案類型， 其中json與wxss依情況可以省略。
 
