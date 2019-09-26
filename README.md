@@ -22,4 +22,23 @@ Wxml：類似於Html前台，可直接修改Wxml數據並匯集時反饋，但�
 Sensor：模擬地理位子，設備表現重力感測等。  
 Trace：連接的設備上取得調試信息並進行顯示。  
 * 每一資料夾都拆為四個子資料，分別為`js`、`json`、`wxml`、`wxss`四種檔案類型， 其中json與wxss依情況可以省略。
-
+* 技術架構
+小程序的運行環境分成`渲染層`和`邏輯層`。  
+其中Wxml與Wxss工作在渲染層，Js腳本在邏輯層。
+以下簡易做解釋  
+index.wxml
+```
+<view>{{ msg }}</view>
+```
+index.js
+```
+Page({
+  onLoad: function () {
+    this.setData({ msg: 'Hello World' })
+  }
+})
+```
+以這個範例來說，可以看到三點：  
+1.`渲染層`(WXML、WXSS文件)與數據相關。(`Show Dat`)  
+2.`邏輯層`(js文件)產生、外處數據。(`What Data`)  
+3.`邏輯層`(js文件)通過Page實例的setData方法傳遞數據到渲染層。(`Send Data`)  
