@@ -40,6 +40,6 @@ Page({
 })
 ```
 * 以這個範例來說，可以看到三點：  
-*   `渲染層`(WXML、WXSS文件)與數據相關。(`Show Dat`)  
-*   `邏輯層`(js文件)產生、外處數據。(`What Data`)  
-*   `邏輯層`(js文件)通過Page實例的setData方法傳遞數據到渲染層。(`Send Data`)  
+    * `渲染層`(WXML、WXSS文件)與數據相關。(`Show Dat`)  
+    * `邏輯層`(js文件)產生、外處數據。(`What Data`)  
+    * `邏輯層`(js文件)通過Page實例的setData方法傳遞數據到渲染層。(`Send Data`)  
