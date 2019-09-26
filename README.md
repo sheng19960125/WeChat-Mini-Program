@@ -76,12 +76,15 @@ WXML先轉為JS在回到原本的樣式，過程如下。
 
 ```
 <view>{{ msg }}</view> 
+    
 { msg:"Hello World" }  
+    
 { name:"view",
   children:[
     {text:"Holle World"}
   ]
 }
+    
 view -> "Hello World"
 ```
 
