@@ -65,3 +65,7 @@ WXSS(WeiXin Style Sheet) 用於描述頁面樣式。
 * 以英文直翻，為一套樣式語言，負責描述WXML的組件樣式   
 
 而組件(Component)是視圖最基本的元件。    
+
+### 通信模型
+
+<img src="https://github.com/sheng19960125/WeChat-Mini-Program/blob/master/model.PNG" width="750px" alt="主頁" />
