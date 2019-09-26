@@ -73,18 +73,15 @@ WXSS(WeiXin Style Sheet) 用於描述頁面樣式。
 <img src="https://github.com/sheng19960125/WeChat-Mini-Program/blob/master/model.png" width="750px" alt="模型" />
 Native指唯信客戶端，網路請求等也經由Native轉發。如上圖所示。    
 WXML先轉為JS在回到原本的樣式，過程如下。
+
 ```
-
 <view>{{ msg }}</view> 
-
 { msg:"Hello World" }  
-
 { name:"view",
   children:[
     {text:"Holle World"}
   ]
 }
-
 view -> "Hello World"
 ```
 
