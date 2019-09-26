@@ -55,10 +55,13 @@ Page({
 
 ### 渲染層/視圖層
 主框架是由WXML與WXSS編寫，由組件來進行展示。由邏輯層的數據反映成視圖，同時將試圖層所發生的事件反饋诶邏輯層。  
-WXML(WeiXin Markup language) 用於描述頁面的結構體。    
+WXML(WeiXin Markup language) 用於描述頁面的結構體。   
 * 具備數據綁定、列表選染、條件渲染、模板、引用、事件   
+
 WXS(WeiXin Script) 小程序屬腳本語言，结合 WXML，可以構出頁面結構。   
 * 頁面渲染、數據處理   
+
 WXSS(WeiXin Style Sheet) 用於描述頁面樣式。   
 * 以英文直翻，為一套樣式語言，負責描述WXML的組件樣式   
+
 而組件(Component)是視圖最基本的元件。    
